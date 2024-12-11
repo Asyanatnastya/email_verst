@@ -1,0 +1,615 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.wrapper {
+    margin: 0 auto;
+    /* max-width: 320px; */
+    width: 85%;
+}
+
+.container {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 150px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.contact .subtext {
+    font-size: 12px;
+    color: #9999a6;
+    font-style: italic;
+    font-family: "Arial";
+}
+
+.banner-container {
+    text-align: center;
+}
+
+.banner {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 75%;
+}
+
+.hata-plus h2 {
+    font-size: 18px;
+    padding: 0;
+}
+
+.hata-plus .description {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    color: #666;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Arial";
+}
+
+.buttoncall {
+    margin-top: 10px;
+}
+
+.buttoncall .button {
+    padding: 10px 20px;
+    background-color: #fd8300;
+    color: white;
+    text-decoration: none;
+    border-radius: 18px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.three-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-block {
+    text-align: center;
+    width: 30%;
+}
+
+.image-block img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.image-block p {
+    font-size: 12px;
+    color: #666;
+}
+
+.feature {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature img {
+    width: 50px;
+    height: auto;
+}
+
+.feature h3 {
+    font-size: 16px;
+}
+
+.feature .title {
+    font-size: 12px;
+}
+
+.block {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block.block-content {
+    margin-bottom: 10px;
+}
+
+.block h3 {
+    font-size: 16px;
+}
+
+.block p {
+    font-size: 13px;
+    line-height: 19px;
+    color: #9999a6;
+    font-family: "Arial";
+}
+
+.block-image {
+    width: 100%;
+    height: auto;
+}
+
+.block-right {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-right,
+.block-content {
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #9999a6;
+    font-family: "Arial";
+}
+
+.block-right h3 {
+    margin-top: 10px;
+    color: #1f1f56;
+}
+
+.discount {
+    margin-top: 20px;
+    position: relative;
+}
+
+.discount-content {
+    position: relative;
+    text-align: center;
+}
+
+.discount img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.discount .discount-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    /* padding: 10px; */
+    text-align: center;
+}
+
+.discount .discount-text h2 {
+    margin: 2px;
+    font-size: 14px;
+}
+
+.discount .discount-text .sending {
+    font-size: 10px;
+    margin: 3px;
+}
+
+.discount .cta-button {
+    padding: 2px 5px;
+    background-color: #1f1f56;
+    color: white;
+    text-decoration: none;
+    border-radius: 16px;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.footer {
+    background-color: #08081a;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    width: 320px;
+    height: 93px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    max-width: 100%;
+    margin: 0 20px;
+    box-sizing: border-box;
+}
+
+.social-links {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links .icon {
+    margin: 5px;
+    color: #ffffff;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.navigation-links p {
+    color: #5f310c;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.site {
+    color: #fd8300;
+}
+
+@media screen and (min-width: 320px) {
+
+    .logo img {
+        max-width: 100px;
+    }
+
+    .buttoncall .button {
+        font-size: 14px;
+    }
+
+    .feature img {
+        width: 30px;
+    }
+
+    .feature h3 {
+        font-size: 14px;
+    }
+
+    .block img {
+        max-width: 100%;
+    }
+
+    .discount .discount-text h2 {
+        font-size: 12px;
+    }
+
+    .discount .discount-text .sending {
+        font-size: 10px;
+    }
+
+    .discount .cta-button {
+        font-size: 10px;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer-content {
+        margin: 0 10px;
+    }
+
+    .social-links .icon {
+        font-size: 14px;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
+
+    .navigation-links p {
+        font-size: 10px;
+    }
+
+    .discount .discount-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 425px) {
+        .wrapper {
+            width: 85%;
+            max-width: 100%;
+            flex-direction: column;
+        }
+
+        .logo img {
+            max-width: 120px;
+        }
+
+        .buttoncall .button {
+            font-size: 14px;
+        }
+
+        .feature img {
+            width: 40px;
+        }
+
+        .feature h3 {
+            font-size: 14px;
+        }
+
+        .block-image {
+            max-width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+
+        .discount .discount-text h2 {
+            font-size: 12px;
+        }
+
+        .discount .discount-text .sending {
+            font-size: 10px;
+        }
+
+        .discount .cta-button {
+            font-size: 10px;
+        }
+
+        .footer {
+            width: 100%;
+        }
+
+        .footer-content {
+            margin: 0 10px;
+        }
+
+        .social-links .icon {
+            font-size: 16px;
+        }
+
+        .footer p {
+            font-size: 10px;
+        }
+
+        .navigation-links p {
+            font-size: 10px;
+        }
+
+        .discount .discount-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            padding: 30px;
+            text-align: center;
+
+        }
+    }
+
+    @media screen and (min-width: 600px) {
+        .header {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .banner {
+            width: 100%;
+            object-fit: cover;
+            object-position: 75%;
+            height: 200px;
+        }
+
+        .contact {
+            margin-top: 10px;
+        }
+
+        .three-images {
+            flex-direction: column;
+        }
+
+        .feature {
+            margin: 10px 0;
+        }
+
+        .block {
+            flex-direction: column;
+        }
+
+        .block-right {
+            flex-direction: column;
+        }
+
+        .block-image img {
+            width: 78%;
+            height: auto;
+        }
+
+        .cta-button {
+            padding: 8px 16px;
+            font-size: 14px;
+        }
+
+        .logo img {
+            max-width: 170px;
+        }
+
+        .discount {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            /* height: auto;  */
+
+        }
+
+        .discount .discount-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            /* Забезпечує авто-підлаштування по висоті */
+            padding: 40px;
+            box-sizing: border-box;
+            text-align: center;
+            color: white;
+            overflow-wrap: break-word;
+            /* Запобігає виходу тексту за межі */
+        }
+
+        .discount .discount-text h2 {
+            font-size: 3vw;
+            /* Адаптивний розмір шрифта */
+            margin: 10px 0;
+        }
+
+        .discount .discount-text p {
+            font-size: 1.2vw;
+            /* Адаптивний розмір для тексту */
+            margin: 10px 0;
+        }
+
+        .discount .cta-button {
+            padding: 8px 15px;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+
+        .discount-image {
+            width: 100%;
+
+        }
+
+        .discount-content {
+            width: 100%;
+        }
+
+        .discount .discount-text .sending {
+            font-size: 15px;
+        }
+
+        .footer {
+            width: 100%;
+        }
+
+        .footer p {
+            font-size: 15px;
+        }
+
+        .grey-block {
+            display: flex;
+            gap: 20%;
+        }
+
+        .block.block-right {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .block-left {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+
+        .line {
+            height: 1px;
+            background-color: #bdbdc2;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .discount .discount-text {
+            height: 100%;
+            width: 100%;
+        }
+
+        .block-image img {
+            width: 59%;
+        }
+
+        .block.block-right {
+            margin: 20px
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        .banner {
+            height: 270px;
+        }
+
+        .logo img {
+            max-width: 220px;
+        }
+
+        .contact {
+            margin-top: 28px;
+        }
+
+        .contact .subtext {
+            font-size: 16px;
+        }
+
+        .hata-plus h2 {
+            font-size: 30px;
+        }
+
+        .hata-plus .description {
+            font-size: 19px;
+            line-height: 34px;
+        }
+
+        .buttoncall .button {
+            font-size: 20px;
+        }
+
+        .feature .title {
+            font-size: 16px;
+        }
+
+        .feature h3 {
+            font-size: 17px;
+        }
+
+        .feature img {
+            width: 47px;
+        }
+    }
